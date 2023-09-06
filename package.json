@@ -1,0 +1,16 @@
+{
+    "name": "netlify-plugin-dartsass",
+    "version": "0.1.0",
+    "description": "Install Dart Sass to enable the latest features of the Sass language for your Hugo site",
+    "main": "index.js",
+    "repository": "https://github.com/gethinode/netlify-plugin-dartsass",
+    "bugs": {
+      "url": "https://github.com/gethinode/netlify-plugin-dartsass/issues"
+    },
+    "author": "Mark Dumay",
+    "license": "MIT",
+    "keywords": [
+      "netlify",
+      "netlify-plugin"
+    ]
+  }
