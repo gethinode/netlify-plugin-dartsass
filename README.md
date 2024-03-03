@@ -11,7 +11,7 @@ For file-based installation, add the following lines to your `netlify.toml` file
 ```toml
 [build.environment]
   # see index.js for default value
-  DART_SASS_VERSION = "1.66.1" 
+  DART_SASS_VERSION = "1.71.1" 
 
 [[plugins]]
   package = "netlify-plugin-dartsass"
