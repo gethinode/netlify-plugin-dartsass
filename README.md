@@ -11,7 +11,7 @@ For file-based installation, add the following lines to your `netlify.toml` file
 ```toml
 [build.environment]
   # see index.js for default value
-  DART_SASS_VERSION = "1.66.1" 
+  DART_SASS_VERSION = "1.71.1" 
 
 [[plugins]]
   package = "netlify-plugin-dartsass"
@@ -22,7 +22,7 @@ Note: The `[[plugins]]` line is required for each plugin, even if you have other
 To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add the plugin to `devDependencies` in `package.json`.
 
 ```bash
-npm install -D netlify-plugin-dartsass
+npm install -D @gethinode/netlify-plugin-dartsass
 ```
 
 ## How it works

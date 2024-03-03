@@ -2,7 +2,7 @@ const { env } = require('node:process');
 
 module.exports = {
     onPreBuild({ netlifyConfig, utils }) {
-        let version = env.DART_SASS_VERSION || "1.66.1";
+        let version = env.DART_SASS_VERSION || "1.71.1";
 
         let newCommand = `
             curl -LJO https://github.com/sass/dart-sass/releases/download/${version}/dart-sass-${version}-linux-x64.tar.gz && \

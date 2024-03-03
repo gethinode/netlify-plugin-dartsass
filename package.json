@@ -1,6 +1,6 @@
 {
     "name": "@gethinode/netlify-plugin-dartsass",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Install Dart Sass to enable the latest features of the Sass language for your Hugo site",
     "main": "index.js",
     "publishConfig": {
