@@ -22,7 +22,7 @@ Note: The `[[plugins]]` line is required for each plugin, even if you have other
 To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add the plugin to `devDependencies` in `package.json`.
 
 ```bash
-npm install -D netlify-plugin-dartsass
+npm install -D @gethinode/netlify-plugin-dartsass
 ```
 
 ## How it works
