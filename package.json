@@ -1,6 +1,6 @@
 {
     "name": "@gethinode/netlify-plugin-dartsass",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Install Dart Sass to enable the latest features of the Sass language for your Hugo site",
     "main": "index.js",
     "publishConfig": {
@@ -16,5 +16,9 @@
     "keywords": [
       "netlify",
       "netlify-plugin"
-    ]
+    ],
+    "scripts": {
+      "postpublish": "npm run publish-npm",
+      "publish-npm": "npm publish --access public --ignore-scripts --@gethinode:registry='https://registry.npmjs.org'"
+    }
   }
