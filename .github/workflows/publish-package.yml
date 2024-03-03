@@ -1,4 +1,4 @@
-name: Release GitHub and npm package
+name: Publish GitHub and npm package
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     types: [created]
 
 jobs:
-  publish-gpr:
+  publish:
     runs-on: ubuntu-latest
     permissions:
       packages: write
