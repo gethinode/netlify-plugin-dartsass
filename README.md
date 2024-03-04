@@ -14,7 +14,7 @@ For file-based installation, add the following lines to your `netlify.toml` file
   DART_SASS_VERSION = "1.71.1" 
 
 [[plugins]]
-  package = "netlify-plugin-dartsass"
+  package = "@gethinode/netlify-plugin-dartsass"
 ```
 
 Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
