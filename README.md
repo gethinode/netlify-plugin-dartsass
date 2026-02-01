@@ -42,12 +42,12 @@ export PATH=/opt/build/repo/dart-sass:$PATH`
 
 This plugin is inspired by the following instructions and repositories:
 
-- [Dart Sass installation instructions for Netlify][hugo_dart_netlify] by Joe Mooring / Hugo team
+- [Host on Netlify][hugo_netlify] by Joe Mooring / Hugo team
 - [netlify-plugin-hugo-cache-resources][plugin_cache] by [Cassius de Leeuwe][cassius]
 
 <!-- Links -->
 [hugo]: https://gohugo.io
-[hugo_dart_netlify]: https://gohugo.io/hugo-pipes/transpile-sass-to-css/#netlify
+[hugo_netlify]: https://gohugo.io/host-and-deploy/host-on-netlify/
 [cassius]: https://github.com/cdeleeuwe
 [plugin_cache]: https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources
 [dartsass]: https://sass-lang.com/dart-sass/
